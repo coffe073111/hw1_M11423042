@@ -17,7 +17,7 @@ C5.0訓練模型(dm_decision_tree_C5.0.ipynb)及ID3、C4.5、CART訓練模型(dm
 
   ● DecisionTree_AllModels_Predictions.xlsx：整理四種演算法的預測結果。
 
-資料夾(實驗三)：：內有？個檔案，分別是Large決策樹圖(Large_tree_d10_l64.png)、Medium決策樹圖(Medium_tree_d6_l16.png)、Small決策樹圖(Small_tree_d3_l16.png)
+資料夾(實驗三)：：內有四個檔案，分別是Large決策樹圖(Large_tree_d10_l64.png)、Medium決策樹圖(Medium_tree_d6_l16.png)、Small決策樹圖(Small_tree_d3_l16.png)
   
   ● dm_post_pruning_decision_tree_finalver.ipynb：透過Grid Search，比較不同樹深度與葉節點數的組合表現，並利用Elbow Method找出模型複雜度與準確率的平衡點，選出三組代表模型（Small、Medium、Large），最後在測試集上評估其準確率。
 
