@@ -8,7 +8,7 @@
   
   ● adult_data_missing_value.ipynb：偵測訓練集的缺失值，如？或空白，統計後依變數型態採取不同方式做補值(數值型欄位以中位數；類別型欄位以眾數/Unknown)。
 
-資料夾(訓練模型)：內有七個檔案，分別是C4.5決策樹圖(C4.5.png)及C5.0決策樹圖(C5.0.png)及CART決策樹圖(CART.png)及ID3決策樹圖(ID3.png)及
+資料夾(訓練模型)：內有七個檔案，分別是C4.5混淆矩陣圖(C4.5.png)及C5.0混淆矩陣圖(C5.0.png)及CART混淆矩陣圖(CART.png)及ID3混淆矩陣圖(ID3.png)及
 C5.0訓練模型(dm_decision_tree_C5.0.ipynb)及ID3、C4.5、CART訓練模型(dm_decision_tree_ID3、C4.5、CART.ipynb)及各類決策樹預測結果(DecisionTree_AllModels_Predictions.xlsx)
 
 ● dm_decision_tree_C5.0.ipynb：使用前處理後的Adult資料集進行訓練、測試C5.0決策樹分類器。
