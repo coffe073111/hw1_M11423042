@@ -8,12 +8,14 @@
   
   ● adult_data_missing_value.ipynb：偵測訓練集的缺失值，如？或空白，統計後依變數型態採取不同方式做補值(數值型欄位以中位數；類別型欄位以眾數/Unknown)。
 
-資料夾(訓練模型)：內有六個檔案，分別是C4.5決策樹圖(C4.5.png)及C5.0決策樹圖(C5.0.png)及CART決策樹圖(CART.png)及ID3決策樹圖(ID3.png)及
-C5.0訓練模型(dm_decision_tree_C5.0.ipynb)及ID3、C4.5、CART訓練模型(dm_decision_tree_ID3、C4.5、CART.ipynb)
+資料夾(訓練模型)：內有七個檔案，分別是C4.5決策樹圖(C4.5.png)及C5.0決策樹圖(C5.0.png)及CART決策樹圖(CART.png)及ID3決策樹圖(ID3.png)及
+C5.0訓練模型(dm_decision_tree_C5.0.ipynb)及ID3、C4.5、CART訓練模型(dm_decision_tree_ID3、C4.5、CART.ipynb)及各類決策樹預測結果(DecisionTree_AllModels_Predictions.xlsx)
 
 ● dm_decision_tree_C5.0.ipynb：使用前處理後的Adult資料集進行訓練、測試C5.0決策樹分類器。
 
 ● dm_decision_tree_ID3、C4.5、CART.ipynb：使用前處理後的Adult資料集進行訓練、測試ID3、C4.5、CART決策樹分類器。
+
+● DecisionTree_AllModels_Predictions.xlsx：整理四種演算法的預測結果。
 
   
   ● dm_post_pruning_decision_tree_finalver.ipynb：透過Grid Search，比較不同樹深度與葉節點數的組合表現，並利用Elbow Method找出模型複雜度與準確率的平衡點，選出三組代表模型（Small、Medium、Large），最後在測試集上評估其準確率。
