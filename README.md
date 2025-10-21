@@ -30,11 +30,10 @@
   ● requirements：環境設定。
 
 
-  # hw1_M11423042
+# hw1_M11423042
 
 [![Made with Jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange)](#)
 [![scikit-learn](https://img.shields.io/badge/ML-scikit--learn-informational)](#)
-[![License](https://img.shields.io/badge/License-—-blue)](#)
 
 > 以 **Adult** 資料集為例，完成資料前處理、四種決策樹模型（ID3 / C4.5 / C5.0 / CART）的訓練與可視化，
 > 並在實驗三以 **Cost-Complexity Pruning** 進行後修剪與模型選擇。
@@ -42,6 +41,7 @@
 ---
 
 ## 目錄（Table of Contents）
+- [專案結構](#專案結構)
 - [資料前處理](#資料前處理)
 - [實驗二：決策樹與混淆矩陣](#實驗二-決策樹與混淆矩陣)
 - [實驗三：後修剪與模型挑選](#實驗三-後修剪與模型挑選)
@@ -70,6 +70,7 @@
 │  ├─ Small_tree_d3_l16.png
 │  └─ dm_post_pruning_decision_tree_finalver.ipynb
 └─ requirements.txt（或 requirements/）
+
 
 
 
