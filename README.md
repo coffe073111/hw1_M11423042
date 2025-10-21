@@ -8,7 +8,7 @@
   
   ● adult_data_missing_value.ipynb：偵測訓練集的缺失值，如？或空白，統計後依變數型態採取不同方式做補值(數值型欄位以中位數；類別型欄位以眾數/Unknown)。
 
-**資料夾(實驗二)**：內有十個檔案，分別是C4.5混淆矩陣圖(CM_C45.png)及C5.0混淆矩陣圖(C5.0_confusion_matrix.png)及CART混淆矩陣圖(CM_CART.png)及ID3混淆矩陣圖(CM_ID3.png)及C4.5決策樹圖(Tree_C45.png)及C5.0決策樹圖(Tree_C50.png)及CART決策樹圖(Tree_CART.png)及ID3決策樹圖(Tree_ID3.png)及ID3、C4.5、CART訓練模型(dm_decision_tree_ID3.C4.5.CART.ipynb)及各類決策樹預測結果(Test_Predictions.xlsx)
+**資料夾(實驗二)**：內有十二個檔案，分別是C4.5混淆矩陣圖(CM_C45.png)及C5.0混淆矩陣圖(CM_C50.png)及CART混淆矩陣圖(CM_CART.png)及ID3混淆矩陣圖(CM_ID3.png)及C4.5決策樹圖(Tree_C45.png)及C5.0決策樹圖(Tree_C50.png)及CART決策樹圖(Tree_CART.png)及ID3決策樹圖(Tree_ID3.png)及ID3、C4.5、CART訓練模型(dm_decision_tree_ID3.C4.5.CART.ipynb)及C5.0訓練模型(dm_decision_tree_C5.0.ipynb)及ID3、C4.5、CART預測結果(Test_Predictions_ID3.C4.5.CART.xlsx)及C5.0預測結果(Test_Predictions_C5.0.xlsx)
 
 **CM_為混淆矩陣圖*
 
@@ -18,7 +18,9 @@
 
   ● dm_decision_tree_ID3.C4.5.CART.ipynb：使用前處理後的Adult資料集進行訓練、測試ID3、C4.5、CART決策樹分類器。
 
-  ● Test_Predictions.xlsx：整理各類演算法(ID3、C4.5、CART)的預測結果。
+  ● Test_Predictions_ID3.C4.5.CART.xlsx：整理各類演算法(ID3、C4.5、CART)的預測結果。
+
+  ● Test_Predictions_C5.0.xlsx：整理C5.0的預測結果。
 
 
 **資料夾(實驗三)**：：內有四個檔案，分別是Large決策樹圖(Large_tree_d10_l64.png)、Medium決策樹圖(Medium_tree_d6_l16.png)、Small決策樹圖(Small_tree_d3_l16.png)、採用Cost-Complexity Pruning和CART之模型(dm_post_pruning_decision_tree_finalver.ipynb)
