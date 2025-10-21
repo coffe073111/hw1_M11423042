@@ -24,7 +24,7 @@
   
   ● dm_post_pruning_decision_tree_finalver.ipynb：透過Grid Search，比較不同樹深度與葉節點數的組合表現，並利用Elbow Method找出模型複雜度與準確率的平衡點，選出三組代表模型（Small、Medium、Large），最後在測試集上評估其準確率。
 
-
+  ● requirements：環境設定。
 
 
 
