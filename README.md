@@ -8,7 +8,7 @@
   
   ● adult_data_missing_value.ipynb：偵測訓練集的缺失值，如？或空白，統計後依變數型態採取不同方式做補值(數值型欄位以中位數；類別型欄位以眾數/Unknown)。
 
-**資料夾(實驗二)**：內有十個檔案，分別是C4.5混淆矩陣圖(CM_C45.png)及C5.0混淆矩陣圖(C5.0_confusion_matrix.png)及CART混淆矩陣圖(CM_CART.png)及ID3混淆矩陣圖(CM_ID3.png)及C4.5決策樹圖(Tree_C45.png)及C5.0決策樹圖(Tree_C50.png)及CART決策樹圖(Tree_CART.png)及ID3決策樹圖(Tree_ID3.png)及ID3、C4.5、CART訓練模型test_overfiting_ID3.C4.5.CART (2).ipynb)及各類決策樹預測結果(Test_Predictions.xlsx)
+**資料夾(實驗二)**：內有十個檔案，分別是C4.5混淆矩陣圖(CM_C45.png)及C5.0混淆矩陣圖(C5.0_confusion_matrix.png)及CART混淆矩陣圖(CM_CART.png)及ID3混淆矩陣圖(CM_ID3.png)及C4.5決策樹圖(Tree_C45.png)及C5.0決策樹圖(Tree_C50.png)及CART決策樹圖(Tree_CART.png)及ID3決策樹圖(Tree_ID3.png)及ID3、C4.5、CART訓練模型(dm_decision_tree_ID3.C4.5.CART.ipynb)及各類決策樹預測結果(Test_Predictions.xlsx)
 
 **CM_為混淆矩陣圖*
 
@@ -16,7 +16,7 @@
 
   ● dm_decision_tree_C5.0.ipynb：使用前處理後的Adult資料集進行訓練、測試C5.0決策樹分類器。
 
-  ● test_overfiting_ID3.C4.5.CART (2).ipynb：使用前處理後的Adult資料集進行訓練、測試ID3、C4.5、CART決策樹分類器。
+  ● dm_decision_tree_ID3.C4.5.CART.ipynb：使用前處理後的Adult資料集進行訓練、測試ID3、C4.5、CART決策樹分類器。
 
   ● Test_Predictions.xlsx：整理各類演算法(ID3、C4.5、CART)的預測結果。
 
