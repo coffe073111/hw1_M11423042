@@ -30,6 +30,49 @@
   ● requirements：環境設定。
 
 
+  # hw1_M11423042
+
+[![Made with Jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange)](#)
+[![scikit-learn](https://img.shields.io/badge/ML-scikit--learn-informational)](#)
+[![License](https://img.shields.io/badge/License-—-blue)](#)
+
+> 以 **Adult** 資料集為例，完成資料前處理、四種決策樹模型（ID3 / C4.5 / C5.0 / CART）的訓練與可視化，
+> 並在實驗三以 **Cost-Complexity Pruning** 進行後修剪與模型選擇。
+
+---
+
+## 目錄（Table of Contents）
+- [資料前處理](#資料前處理)
+- [實驗二：決策樹與混淆矩陣](#實驗二-決策樹與混淆矩陣)
+- [實驗三：後修剪與模型挑選](#實驗三-後修剪與模型挑選)
+- [環境與執行方式](#環境與執行方式)
+- [命名規則](#命名規則)
+
+---
+
+## 專案結構
+```text
+.
+├─ 資料夾(資料前處理)/
+│  ├─ adult_data_duplicate.ipynb
+│  ├─ adult_test_duplicates.ipynb
+│  └─ adult_data_missing_value.ipynb
+├─ 資料夾(實驗二)/
+│  ├─ CM_C45.png  CM_C50.png  CM_CART.png  CM_ID3.png
+│  ├─ Tree_C45.png  Tree_C50.png  Tree_CART.png  Tree_ID3.png
+│  ├─ dm_decision_tree_ID3.C4.5.CART.ipynb
+│  ├─ dm_decision_tree_C5.0.ipynb
+│  ├─ Test_Predictions_ID3.C4.5.CART.xlsx
+│  └─ Test_Predictions_C5.0.xlsx
+├─ 資料夾(實驗三)/
+│  ├─ Large_tree_d10_l64.png
+│  ├─ Medium_tree_d6_l16.png
+│  ├─ Small_tree_d3_l16.png
+│  └─ dm_post_pruning_decision_tree_finalver.ipynb
+└─ requirements.txt（或 requirements/）
+
+
+
 
 
 
